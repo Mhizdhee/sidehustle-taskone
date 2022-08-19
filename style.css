@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body{
+background-color: aliceblue;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+ .container .images{
+    width: 150vw;
+    position: relative;
+    /* height: 300vh; */
+} 
+
+.images .bg-img{
+    width: 150%;
+    height: 150vh;
+    /* position: absolute;s */
+
+}
+figcaption{
+    position: absolute;
+    bottom:5%;
+    color:   white;
+    padding: 10%;
+}
+
+.logo{
+width: 15%;
+height: 19vh;
+position: absolute;
+top:30%;
+left:10%;
+background-color: rgba(0, 0, 0,0.60);
+}
+h1{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    background-color:rgba(0, 0, 0,0.60);
+    width: 75%;
+    height: 19vh;
+    padding: 40px 0 0 5px ;
+    color: white;
+}
+.container .content{
+
+    padding: 30px 50px 0 30px;
+}
+.heading{
+    padding: 150px 50px 0 30px;
+    width: 86%;
+}
+.heading .headn2{
+    padding-bottom:50px ;
+    /* background-color: rgba(133, 131, 131, 0.1); */
+    padding-top:20px;
+}
+
+
+.container .form{
+    padding: 25px 30px;
+    background-color: white;
+    width: 100%;
+    height: 50vh;
+    box-shadow: 3px 2px 9px rgba(128, 126, 126, 0.6);
+
+    
+}
+
+.container form .details{
+margin: 5%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+.details .cardbox {
+    /* width: 100%; */
+    /* display: block; */
+    /* font-weight: 500; */
+    /* margin-bottom: 5px; */
+}
+
+input{
+    border:1px solid #E5E7EB;
+    border-radius: 5px;
+    height: 5vh;
+    width: 120%;
+}
+
+input:hover{
+border: 1px solid blue;
+box-shadow: 1px 2px 2px rgba(0, 0, 0,0.60);
+}
+input:focus{
+    color: blue;
+    border: none;
+}
+button{
+    padding: 20px;
+    margin-top:30px ;
+    margin-left: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: #596D48;
+    border: none;
+    border-radius: 10px;
+}
+#p{
+font-size: 20px;
+margin-left: 40px;
+padding: 20px 0;
+}
+
+strong{
+    color: #596D48;
+    font-size: 20px;
+}
+
+
+
